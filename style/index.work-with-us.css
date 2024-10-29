@@ -1,0 +1,35 @@
+.work-with-us {
+  margin-top: 50px;
+  .work-with-us__main-container {
+    margin: 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .work-with-us__elements-container {
+      .work-with-us__main-text {
+        color: var(--text-color-dark);
+        font-weight: lighter;
+      }
+    }
+    .work-with-us__btn-container {
+      .work-with-us__btn {
+        border: none;
+        background-color: var(--buttons-color);
+        padding: 10px 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .work-with-us__btn-image {
+          width: 20px;
+          height: 20px;
+          margin-right: 5px;
+        }
+        .work-with-us__btn-link {
+          text-decoration: none;
+          color: var(--buttons-color-text);
+        }
+      }
+    }
+  }
+}

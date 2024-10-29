@@ -21,5 +21,7 @@ p {
   --text-color: #888888;
   --text-color-dark: #282828;
   --buttons-color: red;
-    --background-title-color: #6F8FAF;
+    --buttons-color-text: white;
+    --background-title-color: #6f8faf;
+
 }

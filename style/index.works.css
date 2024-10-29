@@ -14,8 +14,9 @@
         border: none;
         background-color: var(--buttons-color);
         padding: 20px;
-        color: white;
+        color: var(--buttons-color-text);
         font-weight: bold;
+        cursor: pointer;
       }
       .works__section-header-text::after {
         content: "--";
