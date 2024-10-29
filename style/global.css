@@ -1,3 +1,16 @@
-h1{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1,h2,h3,h4,h5,h6,li,ol,ul,p{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --text-color: #888888;
+    --text-color-dark: #282828;
+    --buttons-color: red;
 }
