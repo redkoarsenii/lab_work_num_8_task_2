@@ -44,3 +44,14 @@
         }
     }
 }
+
+
+@media (max-width: 576px) {
+    .what-we-do{
+        .what-we-do__main-container{
+            .what-we-do__cards-container{
+                display: grid;
+            }
+        }
+    }
+}

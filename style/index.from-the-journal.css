@@ -56,3 +56,15 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .from-the-journal{
+        .from-the-journal__main-container{
+            .from-the-journal__cards-container{
+                .from-the-journal__card-inner-container{
+                    display: grid;
+                }
+            }
+        }
+    }
+}
