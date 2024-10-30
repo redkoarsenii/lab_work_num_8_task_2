@@ -1,0 +1,31 @@
+.footer{
+    background-color: var(--text-color-dark);
+    .footer__main-container{
+        margin: 0 200px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        .footer__copyright-container{
+            margin-top: 100px;
+            margin-bottom: 30px;
+            .footer__copyright-text{
+                color: var(--text-color);
+            }
+        }
+        .footer__socials-container{
+            text-align: center;
+            margin-bottom: 100px;
+            .footer__socials-btn{
+                border: none;
+                background-color: green;
+                border-radius: 100%;
+                width: 50px;
+                height: 50px;
+                cursor: pointer;
+                .footer__socials-btn-link{
+                }
+            }
+        }
+    }
+
+}
