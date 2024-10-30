@@ -27,10 +27,12 @@
       }
     }
     .works__pictures-container {
-      display: grid;
-      grid-template-columns: repeat(3, 520px);
-      justify-content: center;
+      display: flex;
+      justify-content: space-between;
       align-items: center;
+      flex-flow: row wrap;
+      align-content: space-between;
+      margin-top: 20px;
       .works__pictures-inner-container {
         margin-bottom: 20px;
         .works__pictures-inner-container-img {
@@ -41,3 +43,4 @@
     }
   }
 }
+

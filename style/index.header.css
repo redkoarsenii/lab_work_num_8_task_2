@@ -12,6 +12,34 @@
         border-radius: 15px;
       }
     }
+    .header__burger-menu-container{
+      #burger-menu{
+        display: none;
+      }
+      .header__burger-menu-span{
+        display: block;
+        width: 50px;
+        position: absolute;
+        right: 30px;
+        top: 32px;
+      }
+      .top{
+        top: 25px;
+        border: 2px solid var(--text-color-dark);
+        transition: transform 0.3s ease;
+      }
+      .middle{
+        top: 32px;
+        border: 2px solid var(--text-color-dark);
+        transition: transform 0.3s ease;
+      }
+      .bottom{
+        top: 39px;
+        border: 2px solid var(--text-color-dark);
+        transition: transform 0.3s ease;
+      }
+    }
+
     .header__nav-bar-container {
       display: flex;
       align-items: center;
@@ -41,6 +69,63 @@
             height: 15px;
           }
         }
+      }
+    }
+  }
+}
+@media (max-width: 768px){
+  .header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    .header__main-container{
+      display: block;
+      position: relative;
+      padding: 0;
+      margin: 0;
+      height: auto;
+      .header__logo-container {
+        margin: 25px;
+        .header__logo {
+
+        }
+      }
+      .header__burger-menu-container{
+        .header__burger-menu-span{
+          display: block;
+        }
+      }
+
+      .header__nav-bar-container{
+        display: none; /*change*/
+        justify-content: flex-end;
+        position: absolute;
+        top: 65px;
+        right: 25px;
+        background-color: green;
+        border-radius: 25px;
+        padding: 20px;
+        .header__nav-bar{
+          display: grid;
+          justify-items: center;
+          align-items: center;
+          .header__nav-bar-element{
+            margin-bottom: 20px;
+          }
+        }
+
+        .header__nav-bar-element-btn-container{
+          display: grid;
+          justify-items: center;
+          align-items: center;
+          .header__nav-bar-element-btn{
+            margin: 0;
+          }
+        }
+
+      }
+      #burger-menu:checked ~ .header__nav-bar-container {
+        display: grid;
       }
     }
   }
