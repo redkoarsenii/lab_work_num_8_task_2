@@ -1,5 +1,46 @@
 .what-we-do{
     .what-we-do__main-container{
         margin: 0 200px;
+        .what-we-do__main-text-container{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            .what-we-do__main-text{
+                color: var(--text-color-dark);
+                margin-bottom: 10px;
+            }
+            .what-we-do__secondary-text{
+                color: var(--text-color);
+            }
+            .what-we-do__main-text::after{
+                content: "--";
+                color: var(--buttons-color);
+                margin-left: 15px;
+                letter-spacing: 5px;
+                font-weight: lighter;
+            }
+        }
+        .what-we-do__cards-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 100px;
+            .what-we-do__card{
+                text-align: center;
+                width: 300px;
+                .what-we-do__card-img{
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 100%;
+                    margin: 20px
+                }
+                .what-we-do__card-title{
+                    color: var(--text-color-dark);
+                    margin: 20px
+                }
+                .what-we-do__card-subtitle{
+                    color: var(--text-color);
+                }
+            }
+        }
     }
 }
