@@ -45,12 +45,53 @@
     }
 }
 
+@media (max-width: 768px) {
+    .what-we-do{
+        .what-we-do__main-container{
+            margin: 0;
+            .what-we-do__main-text-container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px;
+                .what-we-do__main-text{
+                }
+                .what-we-do__secondary-text{
+                    width: 300px;
+                }
+            }
+            .what-we-do__cards-container{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+                justify-items: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
 
 @media (max-width: 576px) {
     .what-we-do{
         .what-we-do__main-container{
+            margin: 0;
+            .what-we-do__main-text-container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px;
+                .what-we-do__main-text{
+                }
+                .what-we-do__secondary-text{
+                    width: 300px;
+                }
+            }
             .what-we-do__cards-container{
-                display: grid;
+                grid-template-columns: none;
+                gap: normal;
+                display: block;
+
             }
         }
     }

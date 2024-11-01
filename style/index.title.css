@@ -24,5 +24,10 @@
 @media (max-width: 768px) {
   .title{
     padding-top: 300px;
+    .title__main-container{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
