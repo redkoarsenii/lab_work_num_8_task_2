@@ -57,9 +57,64 @@
     }
 }
 
+@media (max-width: 768px) {
+    .from-the-journal{
+        .from-the-journal__main-container{
+            padding: 0;
+            .from-the-journal__text-container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 25px;
+                margin-bottom: 50px;
+                .from-the-journal__main-text{
+                    text-align: left;
+                }
+                .from-the-journal__secondary-text{
+                    width: 300px;
+                }
+            }
+            .from-the-journal__cards-container{
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                .from-the-journal__card-inner-container{
+                    .from-the-journal__card-image{
+                        display: block;
+                        justify-self: center;
+                        align-self: center;
+                    }
+                    .from-the-journal__card-inner-inner-container{
+                        text-align: center;
+                        .from-the-journal__card-inner-inner-date{
+                            margin-top: 10px;
+                        }
+                        .from-the-journal__card-inner-inner-title{
+                        }
+                        .from-the-journal__card-inner-inner-subtitle{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 576px) {
     .from-the-journal{
         .from-the-journal__main-container{
+            .from-the-journal__text-container{
+                display: flex;
+                align-items: center;
+                padding: 0 25px;
+                margin-bottom: 50px;
+                .from-the-journal__main-text{
+                    text-align: left;
+                }
+                .from-the-journal__secondary-text{
+                    width: 300px;
+                }
+            }
             .from-the-journal__cards-container{
                 .from-the-journal__card-inner-container{
                     display: grid;
